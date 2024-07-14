@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY-4-CSS</title>
+    <style>
+        h2 {
+            color: greenyellow;
+            background-color: black; /* An internal style sheet may be used if one single HTML page has a unique style. */
+            font-size: 40px;
+        }
+    </style>
+    <link rel="stylesheet" href="./DAY4.css">
+    <!-- Reference to the external style sheet file inside the <link> element, inside the head section. -->
+</head>
+
+<body>
+    <h1 style="color: red; font-size: 50px;">This heading is styled with an <b>Inline CSS</b></h1>
+    <!-- An inline style may be used to apply a unique style for a single element. -->
+    <!-- To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property. -->
+    <!-- In this example the style attribute is added inside the h1 tag which makes it an Inline CSS -->
+    <h2>This heading is styled with an <b>Internal CSS</b></h2>
+    <!-- The internal style is defined inside the <style> element, inside the head section. -->
+    <h3>This heading is styled with and <b>External CSS</b></h3>
+    <!-- With an external style sheet, you can change the look of an entire website by changing just one file! -->
+    <!-- Referance to the CSS file can be given by using <link> element inside head section -->
+    <!-- An external style sheet can be written in any text editor, and must be saved with a .css extension.
+                           The external .css file should not contain any HTML tags.-->
+    <h4><b></b>CSS SELECTORS</b></h4>
+    <h5>Element Selector is used in this line</h5>
+    <!-- An element is directly selected using this selector.
+     Where ever the element is used the attributes set in CSS sheet will be applied.  -->
+     <h5>H5 element is used to in the above heading as well so same style will apply for this line as well as it uses an element selector</h5>
+<p id="paragraph"> ID SELECTOR is used in this paragraph</p>
+<!-- The ID selector referance to the Paragarph is given by using <p id="preferred name"> In this case it is paragraph -->
+    <!-- In the CSS sheet to select an element with a specific id, write a hash (#) character, followed by the id of the element. -->
+     <!-- ID name cannot start with a number -->
+      <p class="para"> Class Selector is used in this paragraph</p>
+      <!-- The Class selector referance to the Paragarph is given by using <p class="preferred name"> In this case it is para -->
+    <!-- In the CSS sheet to select an element with a specific id, write a hash (.) character, followed by the id of the element. -->
+     <!-- Class name cannot start with a number/ Class selectors are mainly used -->
+      <P><b>Universal selector-This CSS rule below will affect every HTML element on the page:</b></P>
+      <p>It is witten with a * inside the style in head  with the attributes inside {} </p>
+      <!-- The Universal selector will give the same style to all lines -->
+       <button class="button" > <b>SUBMIT</b> </button>
+  <!-- CSS COLOURS -->
+  <!-- 1-HEX values -->
+  <!-- 2-RGB values -->
+  <!-- 3-HSL values -->
+  <!-- 4-HSLA values -->
+                                  <!-- CSS background -->
+                                  <!-- Background COLOURS -->
+                                  <!-- Background Image  -->
+                                  <!-- Background repeat -->
+                                  <!-- Background Attachment -->
+                                  <!-- Background Shorthand -->
+    <!-- BORDERS AND BOXMODEL -->
+</body>
+</html>
